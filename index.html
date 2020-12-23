@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="addApplicant.css">
+
+    <title>Hout Bay Job Seekers</title>
+  </head>
+  <body>
+  
+<div class="container ">
+    <h4>Fill in appropriate information of the applicant below</h4>
+     <form action="/Admin" method="POST" enctype="multipart/form-data">
+     
+        <label for="firstName" class="label">First Name</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+
+        <label for="lastName" class="label">Last Name</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="location" class="label">Location</label>
+        <input type="text" id="location" name="location" required>
+
+
+        <label for="firstJob" class="label">first Job</label>
+        <input type="text" id="firstJob" name="firstJob" required>
+
+
+        <label for="secondJob" class="label">Second Job</label>
+        <input type="text" id="secondJob" name="secondJob" required>
+
+        <label for="thirdJob" class="label">Third Job</label>
+        <input type="text" id="thirdJob" name="thirdJob">
+        
+        <label for="forthJob" class="label">Third Job</label>
+        <input type="text" id="forthJob" name="forthJob">
+
+        <label for="image">Insert Image</label><br>
+        <input type="file" id="choose-file" name="image" class="file" required><br>
+        <div class="center">
+            <input type="submit" name="submit" value="Submit" class="btn ">
+        </div>
+
+     </form>
+</div>
+</div>
+</body>
+</html>
